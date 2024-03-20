@@ -12,15 +12,20 @@ int main()
     int count = 0;
     int sum = 0;
     while(c--){
-    for(int i=0;i<1;i++){
+    for(int i=0;i<n;i++){
         cin>>a[i];
-        cin>>b[i];
+
         if(s>a[i]){
             s +=b[i];
                 count++;
 
         }
     }
+    for(int j=0;j<n;i++){
+    cin>>b[i];
+    }
+
+    sort(a,a+n);
     }
     if(count==n){
         cout<<"YES";
