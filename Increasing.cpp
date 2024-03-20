@@ -21,9 +21,9 @@ int main()
         }
 
             if((count==s-1)||s==1){
-                cout<<"YES";
+                cout<<"YES"<<endl;
             }else{
-             cout<<"NO";
+             cout<<"NO"<<endl;
             }
 
 
